@@ -15,4 +15,6 @@ const myExecutor = (resolve, reject) => {
 
 function orderSunglasses() {
     return new Promise(myExecutor); 
-  }
+  };
+
+const orderPromise = orderSunglasses();
